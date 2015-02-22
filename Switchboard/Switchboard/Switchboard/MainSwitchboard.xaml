@@ -31,7 +31,8 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <controls:SwitchboardButton Grid.Row="0" Grid.Column="0" Icon="Camera.png" Label="Camera">
+            <controls:SwitchboardButton Grid.Row="0" Grid.Column="0" Icon="Camera.png"
+                                        Label="Camera">
                 <controls:SwitchboardButton.GestureRecognizers>
                     <TapGestureRecognizer Tapped="CameraButtonTapped" />
                 </controls:SwitchboardButton.GestureRecognizers>

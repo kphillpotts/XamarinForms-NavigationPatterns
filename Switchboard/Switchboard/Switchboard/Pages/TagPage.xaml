@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="Switchboard.Pages.TagPage" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!--  background colors  -->
+        <BoxView Grid.Row="0" Color="#3A444D" />
+        <BoxView Grid.Row="1" Color="#F1F2F2" />
+
+        <!--  header content  -->
+        <ContentView HorizontalOptions="StartAndExpand" Padding="10" VerticalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Tag.png" />
+                <Label FontSize="Large" HorizontalOptions="Center" Text="TAG PAGE"
+                       TextColor="White" VerticalOptions="Center" />
+            </StackLayout>
+        </ContentView>
+
+        <!--  Page Content  -->
+        <Label Grid.Row="1" HorizontalOptions="CenterAndExpand" Text="Tag Page"
+               VerticalOptions="CenterAndExpand" />
+
+    </Grid>
+</ContentPage>

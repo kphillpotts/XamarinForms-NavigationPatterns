@@ -12,7 +12,7 @@ namespace Switchboard
         public App()
         {
             // The root page of your application
-            MainPage = new MainSwitchboard();
+            MainPage = new NavigationPage(new MainSwitchboard());
         }
 
         protected override void OnStart()
