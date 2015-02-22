@@ -31,14 +31,32 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <controls:SwitchboardButton Grid.Row="0" Grid.Column="0" Icon="Camera.png"
-                                        Label="Camera" />
+            <controls:SwitchboardButton Grid.Row="0" Grid.Column="0" Icon="Camera.png" Label="Camera">
+                <controls:SwitchboardButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="CameraButtonTapped" />
+                </controls:SwitchboardButton.GestureRecognizers>
+            </controls:SwitchboardButton>
+
             <controls:SwitchboardButton Grid.Row="0" Grid.Column="1" Icon="Tag.png"
-                                        Label="Tag" />
+                                        Label="Tag">
+                <controls:SwitchboardButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TagButtonTapped" />
+                </controls:SwitchboardButton.GestureRecognizers>
+            </controls:SwitchboardButton>
+
             <controls:SwitchboardButton Grid.Row="1" Grid.Column="0" Icon="Shopping.png"
-                                        Label="Shopping" />
+                                        Label="Shopping">
+                <controls:SwitchboardButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ShoppingButtonTapped" />
+                </controls:SwitchboardButton.GestureRecognizers>
+            </controls:SwitchboardButton>
+
             <controls:SwitchboardButton Grid.Row="1" Grid.Column="1" Icon="Twitter.png"
-                                        Label="Twitter" />
+                                        Label="Twitter">
+                <controls:SwitchboardButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TwitterButtonTapped" />
+                </controls:SwitchboardButton.GestureRecognizers>
+            </controls:SwitchboardButton>
 
         </Grid>
     </Grid>

@@ -14,5 +14,22 @@ namespace Switchboard
         {
             InitializeComponent();
         }
+
+        public async void CameraButtonTapped (object sender, EventArgs args)
+        {
+        }
+
+        public async void TagButtonTapped(object sender, EventArgs args)
+        {
+        }
+
+        public async void ShoppingButtonTapped(object sender, EventArgs args)
+        {
+        }
+
+        public async void TwitterButtonTapped(object sender, EventArgs args)
+        {
+        }
+
     }
 }
