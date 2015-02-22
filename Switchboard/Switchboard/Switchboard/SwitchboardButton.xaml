@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView x:Class="Switchboard.SwitchboardButton" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout Orientation="Vertical">
+
+        <Image x:Name="SwitchboardIcon" HorizontalOptions="Center" Source="{Binding Icon}" />
+
+        <Label x:Name="SwitchboardLabel" HorizontalOptions="Center"
+               Text="{Binding Label}"
+               TextColor="#3A444D" />
+
+    </StackLayout>
+
+</ContentView>

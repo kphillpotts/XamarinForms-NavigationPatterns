@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage x:Class="Switchboard.MainSwitchboard" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+<ContentPage x:Class="Switchboard.MainSwitchboard" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Switchboard;assembly=Switchboard">
 
     <!--  main page grid  -->
     <Grid RowSpacing="0">
@@ -30,11 +31,15 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <!--  button images  -->
-            <Image Grid.Row="0" Grid.Column="0" Source="Camera.png" />
-            <Image Grid.Row="0" Grid.Column="1" Source="Tag.png" />
-            <Image Grid.Row="1" Grid.Column="0" Source="Shopping.png" />
-            <Image Grid.Row="1" Grid.Column="1" Source="Twitter.png" />
+            <controls:SwitchboardButton Grid.Row="0" Grid.Column="0" Icon="Camera.png"
+                                        Label="Camera" />
+            <controls:SwitchboardButton Grid.Row="0" Grid.Column="1" Icon="Tag.png"
+                                        Label="Tag" />
+            <controls:SwitchboardButton Grid.Row="1" Grid.Column="0" Icon="Shopping.png"
+                                        Label="Shopping" />
+            <controls:SwitchboardButton Grid.Row="1" Grid.Column="1" Icon="Twitter.png"
+                                        Label="Twitter" />
+
         </Grid>
     </Grid>
 
