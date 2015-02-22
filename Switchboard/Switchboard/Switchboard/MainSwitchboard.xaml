@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="Switchboard.MainSwitchboard" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--  main page grid  -->
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <!--  row background colors  -->
+        <BoxView Grid.Row="0" Color="#3A444D" />
+        <BoxView Grid.Row="1" Color="#F1F2F2" />
+        <BoxView Grid.Row="2" Color="#3A444D" />
+
+        <!--  title  -->
+        <Label FontSize="Large" HorizontalOptions="Center" Text="MY SPRINGBOARD"
+               TextColor="White" VerticalOptions="Center" />
+
+        <!--  inner grid for button layouts  -->
+        <Grid Grid.Row="1" ColumnSpacing="30" HorizontalOptions="Center"
+              RowSpacing="30" VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!--  button images  -->
+            <Image Grid.Row="0" Grid.Column="0" Source="Camera.png" />
+            <Image Grid.Row="0" Grid.Column="1" Source="Tag.png" />
+            <Image Grid.Row="1" Grid.Column="0" Source="Shopping.png" />
+            <Image Grid.Row="1" Grid.Column="1" Source="Twitter.png" />
+        </Grid>
+    </Grid>
+
+</ContentPage>
