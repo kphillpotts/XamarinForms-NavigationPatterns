@@ -136,6 +136,51 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Human.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Human%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Human%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Klingon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Klingon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Klingon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Vulcan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Vulcan%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Vulcan%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Borg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Borg%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Borg%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Alien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Alien%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\TabIcons\Alien%403x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

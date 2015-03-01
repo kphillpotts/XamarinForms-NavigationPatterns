@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage x:Class="TabbedPages.MainTabContainer"
+            xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:mypages="clr-namespace:TabbedPages;assembly=TabbedPages">
+    <TabbedPage.Children>
+        <mypages:HumanPage Title="Humans" Icon="TabIcons/Human.png" />
+        <mypages:KlingonPage Title="Klingons" Icon="TabIcons/Klingon.png" />
+        <mypages:VulcanPage Title="Vulcans" Icon="TabIcons/Vulcan.png" />
+        <mypages:BorgPage Title="Borg" Icon="TabIcons/Borg.png" />
+        <mypages:FerengiPage Title="Ferengi" Icon="TabIcons/Alien.png" />
+        <mypages:RomulanPage Title="Romulan" Icon="TabIcons/Vulcan.png" />
+        <mypages:TribblePage Title="Tribble" Icon="TabIcons/Alien.png" />
+    </TabbedPage.Children>
+</TabbedPage>
